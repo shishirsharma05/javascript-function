@@ -1,0 +1,46 @@
+header{
+    background-image: url(../img/m-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+}
+#btnhead{
+    color: #fff;
+}
+
+/*about start*/
+.tab{
+margin-top: 40px;
+
+}
+.tab01 a{
+    transition:0.4s;
+}
+.tab01 a{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: teal;
+}
+.tab01 a:hover{
+      transform:scale(0.9);
+      border:4px solid teal;
+      background-color: #000;
+}
+.common{
+    color: #fff;
+}
+p{
+	margin-top: 30px;
+}
+.hidbtn{
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    color:blue;
+}
